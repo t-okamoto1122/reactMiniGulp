@@ -4,7 +4,7 @@ var HelloMessage = React.createClass({
     }
 });
 
-React.render( 
+React.render(
     <HelloMessage name="World" />,
     document.getElementById('container')
 );
