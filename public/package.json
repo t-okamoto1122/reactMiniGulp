@@ -1,0 +1,16 @@
+{
+  "devDependencies": {
+    "gulp": "^3.8.10",
+    "gulp-plumber": "^0.6.6",
+    "gulp-react": "^2.0.0",
+    "gulp-using": "0.0.1",
+    "gulp-webserver": "^0.8.7"
+  },
+  "dependencies": {
+    "react": "^0.12.0"
+  },
+  "scripts": {
+    "react": "gulp react",
+    "watch": "gulp watch"
+  }
+}
