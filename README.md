@@ -1,18 +1,20 @@
 # reactMiniGulp
 
-#QÆƒy[ƒW
+#å‚ç…§ãƒšãƒ¼ã‚¸
 http://qiita.com/cortyuming/items/9e7c30224ff3e4671019
 
-#—pˆÓ‚·‚éƒtƒ@ƒCƒ‹‚Í‚S‚Â
+#ç”¨æ„ã™ã‚‹ãƒ•ã‚¡ã‚¤ãƒ«ã¯ï¼”ã¤
 
-    package.json(npm install ‚Ì‚É‚İ‚é‚â‚Â)
-    gulpfile.js (©npm run react •ÏŠ·“à—e‚ğ‹Lq)
+    package.json(npm install ã®æ™‚ã«ã¿ã‚‹ã‚„ã¤)
+    gulpfile.js (â†npm run react å¤‰æ›å†…å®¹ã‚’è¨˜è¿°)
     index.html
     jsx/helloworld.jsx
 
 
 
-#“®‚©‚·è‡
+#å‹•ã‹ã™æ‰‹é †
     1.$ npm install
-    2.Å‰‚¾‚¯jsƒtƒ@ƒCƒ‹‚ğì¬‚·‚é‚½‚ß $ npm run react ‚Å jsx ‚ğ•ÏŠ·‚·‚é
-    3.$ npm run watch ‚Å web ƒuƒ‰ƒEƒU‚É•\¦A‚©‚Âƒtƒ@ƒCƒ‹•ÏX‚ğŠÄ‹‚µ‚Ä•ÏX‚ ‚ê‚Îjsx‚ğ•ÏŠ·‚µ‚Äƒ‰ƒCƒuƒŠƒ[ƒh‚³‚ê‚é
+    2.æœ€åˆã ã‘jsãƒ•ã‚¡ã‚¤ãƒ«ã‚’ä½œæˆã™ã‚‹ãŸã‚ $ npm run react ã§ jsx ã‚’å¤‰æ›ã™ã‚‹
+    3.$ npm run watch ã§ web ãƒ–ãƒ©ã‚¦ã‚¶ã«è¡¨ç¤ºã€ã‹ã¤ãƒ•ã‚¡ã‚¤ãƒ«å¤‰æ›´ã‚’ç›£è¦–ã—ã¦å¤‰æ›´ã‚ã‚Œã°jsxã‚’å¤‰æ›ã—ã¦ãƒ©ã‚¤ãƒ–ãƒªãƒ­ãƒ¼ãƒ‰ã•ã‚Œã‚‹
+
+jsxã¯ã€jsxãƒ•ã‚¡ã‚¤ãƒ«å†…ã«æ›¸ã„ãŸhtml(jsxã®ã‚³ãƒ¼ãƒ‰)ãªã©ã‚’ã€React.createElement()æ–‡ãªã©ã«å¤‰æ›ã—ã¦ãã‚Œã‚‹
