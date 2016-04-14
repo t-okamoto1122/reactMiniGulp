@@ -19,15 +19,18 @@
 // );
 
 var App = React.createClass({
+  //stateを扱うAPI
   getInitialState: function() {
     return { message: ""};
   },
   updateMessage: function(e) {
+    //stateの状態を更新するAPI
     this.setState( { message: e.target.value });
   },
 
   render : function () {
     return (
+      //onChangeのたびにupdateMessageの呼び出し
       <div>
         <input type="text" onChange={this.updateMessage} />
         <p> {this.state.message}</p>
