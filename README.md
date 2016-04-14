@@ -20,8 +20,8 @@ http://qiita.com/cortyuming/items/9e7c30224ff3e4671019
 jsxは、jsxファイル内に書いたhtml(jsxのコード)などを、React.createElement()文などに変換してくれる
 
 #props 
-Messageコンポーネントはmessageという値を持ちますが、その値は親であるAppコンポーネントが
-Stateで管理しています。親から子に対して値を渡す必要がある。そのインターフェースがコンポーネントタグの属性(message={this.state.message})。
-Message側は属性で受け渡された値をReactコンポーネントのProps(プロパティ)という仕組みで参照できる。
-this.props.messageがPropsによる値の参照。
-親から子のインターフェースは属性を通じてアクセスするということ。
+    Messageコンポーネントはmessageという値を持ちますが、その値は親であるAppコンポーネントが
+    Stateで管理しています。親から子に対して値を渡す必要がある。そのインターフェースがコンポーネントタグの属性(message={this.state.message})。
+    Message側は属性で受け渡された値をReactコンポーネントのProps(プロパティ)という仕組みで参照できる。
+    this.props.messageがPropsによる値の参照。
+    親から子のインターフェースは属性を通じてアクセスするということ。
